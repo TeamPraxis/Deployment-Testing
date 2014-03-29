@@ -3,7 +3,7 @@ var http = require('http');
 console.log('start');
 http.createServer(function (req, res) {
   console.log('created');
-  for(var i = 0; i < 1000000000; i++){
+  for(var i = 0; i < 1000000; i++){
     console.log("hello");
   };
   setTimeout(function() {
