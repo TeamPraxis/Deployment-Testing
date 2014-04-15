@@ -12,9 +12,9 @@ var app = http.createServer(function (req, res) {
   }, 1000);
 });
 
-process.on('SIGTERM', function () {
-  console.log("Closing");
-  app.close();
-});
+//process.on('SIGTERM', function () {
+//  console.log("Closing");
+//  app.close();
+//});
 
 app.listen(80);
